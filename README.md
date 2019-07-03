@@ -9,6 +9,7 @@
  - ```mvn clean install source:jar -Dmaven.test.skip=true```
 
  
+ 
 #### 本地安装和上传私服
 1. 在modules\activiti-ui和modules\activiti-spring-boot下，先后分别```mvn clean install -Dmaven.test.skip=true```
 2. 在modules\activiti-ui和modules\activiti-spring-boot下，先后分别```mvn deploy -Dmaven.test.skip=true```
